@@ -1,0 +1,98 @@
+/* Reset some default styles for better consistency */
+body, h1, h2, h3, p, ul, li, form, label, input, textarea, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f8f8f8;
+    color: #425ae2;
+  }
+  
+  header {
+    background-color: #425ae2;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  .contact-info h2, .complaints h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #425ae2;
+    padding-bottom: 0.5rem;
+  }
+  
+  .contact-info li {
+    margin-bottom: 1rem;
+  }
+  
+  form {
+    margin-top: 1.5rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background-color: #425ae2;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #425ae2;
+  }
+
+  .back-button {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  footer {
+    background-color: #425ae2;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  /* Media Query for responsiveness */
+  @media (max-width: 768px) {
+    main {
+      padding: 1rem;
+    }
+  }
+  

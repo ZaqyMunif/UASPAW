@@ -1,0 +1,67 @@
+/* Reset default margins and paddings */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  header {
+    background-color: #007bff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  h1 {
+    color: #fff;
+  }
+  
+  section {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .service-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #555;
+  }
+
+  .back-button {
+    display: block;
+    text-align: center;
+    color: #007bff;
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    section {
+      padding: 10px;
+    }
+  
+    .service-item {
+      padding: 10px;
+    }
+  }
+  
